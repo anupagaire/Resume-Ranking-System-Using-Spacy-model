@@ -27,4 +27,13 @@ Add the Google OAuth client secret JSON file for authentication.
 Name the file client_secret.json and place it in the project root directory.
 Refer to Google's OAuth documentation for setup details
 
-<img src="https://github.com/user-attachments/assets/0717dc4f-80be-439d-b025-19daaf86d7b5" alt="Resume Upload Interface" style="width: 180px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> <img src="https://github.com/user-attachments/assets/05944902-586d-4d4a-a8a1-9b78e25ada50" alt="Ranking Dashboard" style="width: 180px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> <img src="https://github.com/user-attachments/assets/75c8c172-7a4e-4ca4-8c6b-b37a15f95ed2" alt="Job Description Input" style="width: 180px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> <img src="https://github.com/user-attachments/assets/71072885-c134-4e28-a835-4d36c91c8c85" alt="Results Overview" style="width: 180px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+<img width="368" height="188" alt="image" src="https://github.com/user-attachments/assets/74b61deb-c7cf-4195-ac39-8dc343833aa5" />
+<img width="368" height="188" alt="image" src="https://github.com/user-attachments/assets/5a1831f8-2ef8-4112-b628-b85c1bee39c7" />
+<img width="368" height="188" alt="image" src="https://github.com/user-attachments/assets/21534cd6-ccec-48b4-8a14-bb4c37cc2cf9" />
+<img width="263" height="262" alt="image" src="https://github.com/user-attachments/assets/ec74a59f-8291-4045-9c37-c80c32312b89" />
+
+
+
+
+
