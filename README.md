@@ -1,28 +1,30 @@
-# Resume Ranking System Using SpaCy Model
+# 📄 Resume Ranking System Using SpaCy
+A **Resume Ranking System** built with **SpaCy**, an advanced NLP library, to rank resumes based on job descriptions by analyzing PDF resumes. This system leverages **MongoDB** for efficient data storage and retrieval, making it ideal for recruiters and HR professionals to streamline candidate selection.
 
-This project involves a Resume Ranking System using SpaCy model for pdf only using NLP to rank resumes based on job descriptions.
-The system also uses MongoDB as a database for storing necessary data.
+## 🚀 Features
+- 📑 **NLP-Powered Resume Parsing**: Extracts and analyzes key information from PDF resumes using SpaCy.
+- 🔍 **Job Description Matching**: Ranks resumes based on relevance to job descriptions.
+- 💾 **MongoDB Integration**: Stores resume data and job descriptions securely.
+- 🔐 **Google OAuth Authentication**: Secure access to the system via Google credentials.
 
-Before running this project, ensure that you have all the necessary dependencies installed.
-##Install required libraries
-   The required libraries for this project are listed in the `requirements.txt` file. You can install them by running:
+## 📋 Prerequisites
 
-   pip install -r requirements.txt
-##Resume and JD Model:
+Before running the project, ensure the following dependencies are installed:
 
-To create the Resume and Job Description model, follow resume.ipynb.
-Run that in google collab notebook to build and train the models using your data where data should be in json format.
-## Client Secret:
-Add the client secret JSON file for Google OAuth authentication.
-Ensure the JSON file is named client_secret.json and placed in the project folder.
-##Screenshots
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="https://github.com/user-attachments/assets/0717dc4f-80be-439d-b025-19daaf86d7b5" alt="Image 1" style="width: 200px; height: 188px;">
-  <img src="https://github.com/user-attachments/assets/05944902-586d-4d4a-a8a1-9b78e25ada50" alt="Image 2" style="width: 200px; height: 188px;">
-   <img width="200px" height="188px" alt="image" src="https://github.com/user-attachments/assets/75c8c172-7a4e-4ca4-8c6b-b37a15f95ed2" />
-   <img width="263" height="262" alt="image" src="https://github.com/user-attachments/assets/71072885-c134-4e28-a835-4d36c91c8c85" />
+### Install Required Libraries
+The required libraries are listed in the `requirements.txt` file. Install them using:
 
+```bash
+pip install -r requirements.txt
 
-</div>
+🛠️ Setup Instructions
+1. **Build the Resume and Job Description Model**
+Follow the steps in resume.ipynb to create and train the SpaCy model.
+Run the notebook in Google Colab with your data in JSON format.
+Ensure your dataset includes resumes and job descriptions for training.
+2. **Configure Google OAuth**
+Add the Google OAuth client secret JSON file for authentication.
+Name the file client_secret.json and place it in the project root directory.
+Refer to Google's OAuth documentation for setup details
 
-
+<img src="https://github.com/user-attachments/assets/0717dc4f-80be-439d-b025-19daaf86d7b5" alt="Resume Upload Interface" style="width: 180px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> <img src="https://github.com/user-attachments/assets/05944902-586d-4d4a-a8a1-9b78e25ada50" alt="Ranking Dashboard" style="width: 180px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> <img src="https://github.com/user-attachments/assets/75c8c172-7a4e-4ca4-8c6b-b37a15f95ed2" alt="Job Description Input" style="width: 180px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> <img src="https://github.com/user-attachments/assets/71072885-c134-4e28-a835-4d36c91c8c85" alt="Results Overview" style="width: 180px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
